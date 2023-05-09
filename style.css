@@ -1,0 +1,231 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+:root{
+--ff-heading: 'Staatliches', cursive;
+--ff-text: font-family: 'Palanquin', sans-serif;
+--bg-header: #8E9AAF;
+--bg-main: #EFF1FF;
+--bg-div: #CBC0D3;
+--bg-card: #FEEAFA;
+--color-white: #FFFFFF;
+--color-p: #23053A;
+--color-card: #4A4E69;
+
+
+font-size: 62.5%;
+
+}
+
+
+body{
+  background: var(--bg-main);
+  text-align: center;
+  
+}
+.page{
+  
+  max-width: 32rem;
+  margin: 0 auto;
+  
+}
+
+img{
+
+  width: 100%;
+  height: auto;
+}
+header{
+  background-color: var(--bg-header);
+  min-height:27.9rem ;
+}
+
+
+
+header img{
+
+
+height: 12.4rem;
+width: 12.4rem;
+margin-bottom: 3.2rem ;
+
+}
+
+#divheader{
+background-color: var(--bg-div);
+min-height: 4.9rem;
+max-width: 384rem;
+font-family: var(--ff-heading);
+font-size: 3.0rem;
+line-height: 3.4rem;
+color: var(--color-white);
+margin-bottom: 4.3rem ;
+text-align: center;
+padding: 0.8rem 0 ;
+
+}
+
+main{
+
+
+  padding: 0 3.2rem;
+  
+}
+
+p{
+  font-family: var(--ff-text);
+  color: var(--color-p);
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  max-width: 30.5rem;
+  margin-bottom: 6.3rem;
+  margin-top: 1.4rem;
+
+
+}
+
+.cards{
+ 
+  font-family: var(--ff-heading);
+
+}
+.card1{
+  height: 25rem;
+  object-fit: cover;
+  position: relative;
+  margin-bottom: 3.6rem ;
+}
+.card2{
+height:45rem;
+object-fit: cover;
+position: relative;
+margin-bottom: 3.6rem ;
+
+
+}
+.card3{
+  height: 25rem;
+  object-fit: cover;
+  position: relative;
+  margin-bottom: 3.6rem ;
+
+}
+.card4{
+  height:25rem ;
+  object-fit: cover;
+  position: relative;
+  margin-bottom: 3.6rem ;
+
+}
+
+.card1 p{
+  color: var(--color-card);
+  position: absolute;
+  top: 1.6rem;
+  right: 1.6rem;
+  background-color:#FEEAFA ;
+  
+  border-radius: 2.0rem;
+  border: none;
+  padding: 1rem 2.3rem;
+  font-size: 2.0rem;
+  line-height: 3.4rem;  
+
+
+}
+
+
+
+.card2 p{
+  color: var(--color-card);
+  position: absolute;
+  top: 1.6rem;
+  right: 1.6rem;
+  background-color:#FEEAFA ;
+  
+  border-radius: 2.0rem;
+  border: none;
+  padding: 1rem 2.3rem;
+  font-size: 2.0rem;
+  line-height: 3.4rem;  
+
+
+}
+.card3 p{
+  color: var(--color-card);
+  position: absolute;
+  top: 1.6rem;
+  right: 1.6rem;
+  background-color:#FEEAFA ;
+  
+  border-radius: 2.0rem;
+  border: none;
+  padding: 1rem 2.3rem;
+  font-size: 2.0rem;
+  line-height: 3.4rem;  
+
+
+}
+
+.card4 p{
+  color: var(--color-card);
+  position: absolute;
+  top: 1.6rem;
+  right: 1.6rem;
+  background-color:#FEEAFA ;
+  
+  border-radius: 2.0rem;
+  border: none;
+  padding: 1rem 2.3rem;
+  font-size: 2.0rem;
+  line-height: 3.4rem;  
+
+
+}
+
+.cards img{
+animation-name: downtop;
+animation-duration: 3s;
+
+
+}
+.cards p{
+
+  animation-name: downtop;
+  animation-duration: 2s;
+
+}
+@keyframes downtop{
+
+0%{
+opacity: 0;
+transform: translatey(+15px)
+
+
+}
+100%{
+opacity: 1;
+transform: translatey(0)
+
+}
+
+}
+
+@keyframes topdown{
+
+  0%{
+  opacity: 0;
+  transform: translatey(-15x);
+  
+  
+  }
+  100%{
+  opacity: 1;
+  transform: translatey(0);
+  
+  }
+  
+  }
